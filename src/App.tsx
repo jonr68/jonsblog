@@ -1,10 +1,14 @@
 import "./App.css";
-import Blog from "./Data/Blog";
+import TestBlogs from "./Data/TestBloggs";
 
 function App() {
   return (
     <>
-      <h1>Hello Rita</h1>
+      <div>
+        {TestBlogs.map((blog, index) => (
+          <div key={index}>{blog.title} </div>
+        ))}
+      </div>
     </>
   );
 }

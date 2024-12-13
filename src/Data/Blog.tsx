@@ -1,6 +1,6 @@
 interface Blog {
   author: string;
-  publishDate: Date;
+  publishDate: string;
   title: string;
   body: string;
 }
