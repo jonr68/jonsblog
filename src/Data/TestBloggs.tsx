@@ -4,14 +4,14 @@ const TestBlogs: Blog[] = [
   {
     author: "Jonathan",
     publishDate: "2024-12-12",
-    title: "test 1",
-    body: "Hello Everybody",
+    title: "Blogs Blogs and More Blogs",
+    body: "Do I really want to commit to building a Blog site and blog about it on that Site? Is this TOO meta?",
   },
   {
     author: "Jonathan",
     publishDate: "2024-12-12",
-    title: "test 2",
-    body: "HI Dr Nick",
+    title: "To Trekie or Not to Trekie",
+    body: "If I build this blog site do I want to model it after STar Trek with a Profesional and {ersonal Log? Should I give it a trek Theme? AM I a one trick poney?",
   },
 ];
 
