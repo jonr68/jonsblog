@@ -1,5 +1,6 @@
 import "./App.css";
 import TestBlogs from "./Data/TestBloggs";
+import blog from "./Data/Blog.tsx";
 
 function App() {
   return (
@@ -32,18 +33,24 @@ function App() {
             </div>
           </nav>
         </header>
-        {/*<div>*/}
-        {/*  {TestBlogs.map((blog, index) => (*/}
-        {/*    <div key={index}>*/}
-        {/*      <div>*/}
-        {/*        <div> {blog.title} </div>*/}
-        {/*        <div> {blog.body}</div>*/}
-        {/*        <div> {blog.publishDate}</div>*/}
-        {/*        <div> {blog.author}</div>*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  ))}*/}
-        {/*</div>*/}
+        <main>
+          <section className={"hero"}>
+            <div className="heroContainer">
+              <div className="heroContent">
+                {TestBlogs.map((blog: blog, index: number) => (
+                  <div key={index}>
+                    <div>
+                      <div> {blog.title} </div>
+                      <div> {blog.body}</div>
+                      <div> {blog.publishDate}</div>
+                      <div> {blog.author}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </main>
       </body>
     </>
   );
