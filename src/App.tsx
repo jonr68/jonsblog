@@ -32,18 +32,18 @@ function App() {
             </div>
           </nav>
         </header>
-        <div>
-          {TestBlogs.map((blog, index) => (
-            <div key={index}>
-              <div>
-                <div> {blog.title} </div>
-                <div> {blog.body}</div>
-                <div> {blog.publishDate}</div>
-                <div> {blog.author}</div>
-              </div>
-            </div>
-          ))}
-        </div>
+        {/*<div>*/}
+        {/*  {TestBlogs.map((blog, index) => (*/}
+        {/*    <div key={index}>*/}
+        {/*      <div>*/}
+        {/*        <div> {blog.title} </div>*/}
+        {/*        <div> {blog.body}</div>*/}
+        {/*        <div> {blog.publishDate}</div>*/}
+        {/*        <div> {blog.author}</div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  ))}*/}
+        {/*</div>*/}
       </body>
     </>
   );
