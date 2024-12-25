@@ -40,14 +40,19 @@ function App() {
                 {TestBlogs.map((blog: blog, index: number) => (
                   <div key={index}>
                     <div>
-                      <div> {blog.title} </div>
-                      <div> {blog.body}</div>
-                      <div> {blog.publishDate}</div>
-                      <div> {blog.author}</div>
+                      <h1> {blog.title} </h1>
+                      <h2> {blog.body}</h2>
+                      <p> {blog.publishDate}</p>
+                      <p> {blog.author}</p>
                     </div>
                   </div>
                 ))}
               </div>
+              <img
+                src="src/assets/images/ufplogo.webp"
+                alt="UFP Logo"
+                id="heroIMG"
+              />
             </div>
           </section>
         </main>
