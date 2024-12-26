@@ -41,9 +41,9 @@ function App() {
                   <div key={index}>
                     <div>
                       <h1> {blog.title} </h1>
+                      <p> Publish Date: {blog.publishDate}</p>
+                      <p> Authored by {blog.author}</p>
                       <h2> {blog.body}</h2>
-                      <p> {blog.publishDate}</p>
-                      <p> {blog.author}</p>
                     </div>
                   </div>
                 ))}

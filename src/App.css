@@ -99,16 +99,19 @@
 
 .heroContent h1 {
     font-size: 2rem;
+    color: #cc88ff
 }
 
 .heroContent h2 {
     margin: 2rem;
     font-size: 1.5rem;
+    color: #ff2200
 }
 
 .heroContent p {
     margin: 1.5rem 0;
     font-size: 1.2rem;
+    color: #ffbbaa;
 
 }
 
