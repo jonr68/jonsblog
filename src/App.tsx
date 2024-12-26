@@ -15,17 +15,17 @@ function App() {
             <div className="navbarContainer">
               <ul className="navbarMenu">
                 <li className="navbarItem">
-                  <a className="navbarLink" href="/">
+                  <a className="navbarLinkOne" href="/">
                     Home
                   </a>
                 </li>
                 <li className="navbarItem">
-                  <a className="navbarLink" href="/blogs">
+                  <a className="navbarLinkTwo" href="/blogs">
                     BLOGS
                   </a>
                 </li>
                 <li className="navbarItem">
-                  <a className="navbarLink" href="/newblog">
+                  <a className="navbarLinkThree" href="/newblog">
                     Write a Blog
                   </a>
                 </li>
