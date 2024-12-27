@@ -124,3 +124,8 @@
     height: 80%;
     object-fit: contain;
 }
+
+.heroContent textarea {
+    font-size: 2rem;
+    color: #cc88ff
+}
