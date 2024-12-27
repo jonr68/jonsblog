@@ -1,6 +1,7 @@
 import "../App.css"
 import TestBlogs from "../Data/TestBloggs.tsx";
 import Blog from "../Data/Blog.tsx";
+import {Link} from "react-router-dom";
 
 
 const BlogsPage = () => {
@@ -25,9 +26,9 @@ const BlogsPage = () => {
                 </a>
               </li>
               <li className="navbarItem">
-                <a className="navbarLinkThree" href="/newblog">
+                <Link className="navbarLinkThree" to="/newblog">
                   Write a Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
