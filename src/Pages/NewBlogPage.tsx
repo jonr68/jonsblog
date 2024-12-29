@@ -1,9 +1,10 @@
 import "../App.css"
+import NavBar from "./NavBar.tsx";
 
 const NewBlogPage = () => {
   return (
       <>
-        {/*<NewBlogPage/>*/}
+        <NavBar/>
         <section className={"hero"}>
           <div className="heroContainer">
             <div className="heroContent">
